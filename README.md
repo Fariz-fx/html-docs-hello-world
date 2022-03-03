@@ -42,7 +42,8 @@ This command may take a few minutes to run. While running, it displays informati
 Open a browser and navigate to the app URL (http://<myAppName>.azurewebsites.net) and verify the app is running - take note of the title at the top of the page. Leave the browser open on the app for the next section.
 
 Update and redeploy the app
-In the Cloud Shell, type code index.html to open the editor. In the <h1> heading tag, change Azure App Service - Sample Static HTML Site to Azure App Service Updated - or to anything else that you'd like.
+  
+In the Cloud Shell, type code index.html to open the editor. In the < h1> heading tag, change Azure App Service - Sample Static HTML Site to Azure App Service Updated - or to anything else that you'd like.
 Use the commands ctrl-s to save and ctrl-q to exit.
 Redeploy the app with the same az webapp up command. Be sure to use the same values for <myLocation> and <myAppName> as you used earlier.
 az webapp up --location <myLocation> --name <myAppName> --html
